@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Crop Statistics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://kit.fontawesome.com/259314c312.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- container for form part  -->
+    <div class="container-fluid">
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg bg-light mb-3 mt-3 rounded" style="position: sticky; top: 0px; z-index: 2;">
+
+            <!-- container for NAVBAR CONTENTS -->
+            <div class="container-fluid">
+
+                <!-- LOGO + NAME -->
+                <a href="/" class="navbar-brand text-black">
+
+                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oyjETPMOqk9095voAuiu1niNi3J7yJeqjA&usqp=CAU" width="100px" alt="This image is removed">
+                    <h1 class="d-inline">Krshak Saathee</h1>
+                    
+                </a>
+
+                <!-- Collapse for MOBILES -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#header">
+
+                    <span class="navbar-toggler-icon p-1"><i class="fas fa-bars"></i></span>
+
+                </button>
+
+                <!-- NAVBAR CONTENTS -->
+                <div class="collapse navbar-collapse justify-content-end" id="header">
+
+                    <ul class="navbar-nav">
+
+                        <!-- Home Page Btn  -->
+                        <li class="nav-item">
+
+                           <a href="/" class="nav-link text-dark"><i class="fas fa-home"></i>Home</a>
+                            
+                        </li>
+
+                        <!-- Profile Page Btn -->
+                        <li class="nav-item">
+
+                            <a href="#" class="nav-link text-dark"><i class="fas fa-users"></i>Profile</a>
+
+                        </li>
+
+                        <!-- Help Page Btn -->
+                        <li class="nav-item">
+
+                            <a href="#" class="nav-link text-dark"><i class="far fa-question-circle"></i>Help</a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- form part VERTICAL -->
+        <form action="/statistics" method="POST" style="width: 40rem;" class="mx-auto mt-5 bg-dark text-dark shadow rounded p-5">
+            
+            <!-- title -->
+            <div class="mx-auto">
+                <h1 class="text-info mx-auto mb-4">Current Crop Statistics</h1>
+                <hr>
+            </div>
+
+            <hr>
+
+<!--            &lt;!&ndash; district select &ndash;&gt;-->
+<!--            <div class="col-md-12 mt-5 mb-4">-->
+<!--                <label for="distslt" class="form-label text-white">District</label>-->
+<!--                <select name="dist" id="distslt" class="form-select">-->
+<!--                    <option value="" disabled selected >Choose...</option>-->
+<!--                    <option value="63">Adilabad</option>-->
+<!--                    <option value="55">Hyderabad</option>-->
+<!--                    <option value="62">Karimnagar</option>-->
+<!--                    <option value="57">Medak</option>-->
+<!--                    <option value="58">Mahbubnagar</option>-->
+<!--                    <option value="59">Nalgonda</option>-->
+<!--                    <option value="56">Nizamabad</option>-->
+<!--                    <option value="61">Khammam</option>-->
+<!--                    <option value="60">Warangal</option>-->
+<!--                </select>-->
+<!--            </div>-->
+    
+            <!-- Crop Select -->
+            <div class="col-md-12 mb-4">
+                <label for="cropslt" class="form-label text-white">Crop</label>
+                <select name="crop" id="cropslt" class="form-select">
+                    <option value="" disabled selected >Choose...</option>
+                    <option value="1">Paddy</option>
+                    <option value="2">Sorghum</option>
+                    <option value="3">Arhar</option>
+                    <option value="4">Groundnut</option>
+                    <option value="5">Sesamum</option>
+                </select>
+            </div>
+
+            <!-- Submit button -->
+            <div class="col-md-2 mt-4 ms-1">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
