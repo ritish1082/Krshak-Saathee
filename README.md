@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <b>A simple ML and DL based website which determines the demand, price and yield prediction, Crop Recommendation and fertizers recommendation for the selected crops. </b>
+    <b>A simple ML based website which determines the demand, price and yield prediction, Crop Recommendation and fertizers recommendation for the selected crops. </b>
     <br>
     <b>This project was created during the convergence fest of VNRVJIET as part of the software hackathon event conducted by the institute. The team members and conributors for the project are : </b>
     <!-- add github ahref -->
